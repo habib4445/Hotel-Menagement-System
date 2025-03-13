@@ -30,6 +30,7 @@ p{
     max-width: 1100px;
     overflow: auto;
     padding: 0 20px;
+    
 }
 
 .text-primary{
@@ -273,12 +274,12 @@ color: #fff;
 padding: 20px;
 }
 #main-footer:hover{
-    background-color: rgb(7, 129, 129);
+    /* background-color: rgb(7, 129, 129); */
     color: white;
 }
 /* Billing System */
 body{
-    background-color: #1d2630;
+    /* background-color: #1d2630; */
 }
 *{
     color: #fff;
@@ -295,4 +296,46 @@ body{
     .no-print {
         display: none;
     }
+}
+.row{
+    background-color: #1d2630;
+}
+.table{
+    background-color: #1d2630;   
+}
+/* Room Management */
+.hab img{
+    height: 500px;
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+.hab img:hover{
+    /* background-color: green; */
+    
+}
+h1{
+    color: green;
+    text-align: center;
+}
+h3{
+    color: blue;
+    text-align: center;
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+h4{
+    color:red;
+    background-color: #02c85b;
+    width: 180px;
+}
+h5{
+    color: blue;
+    float: left;
+}
+p{
+    color: black;
+    float: right;
 }
