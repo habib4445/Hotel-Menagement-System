@@ -150,7 +150,7 @@ color:#fff ;
 .home-info .info-img{
     float: left;
     width: 50%;
-    background: url('New folder/pexels-enginakyurt-1579253.jpg') no-repeat ;
+    background: url('New folder/new.jpg') no-repeat ;
     min-height: 100%;
     background-size: cover;
     background-position: center;
@@ -331,11 +331,96 @@ h4{
     background-color: #02c85b;
     width: 180px;
 }
-h5{
-    color: blue;
-    float: left;
+.bed h4{
+    color:blue;
+    width: none;
+  
 }
 p{
-    color: black;
-    float: right;
+    color: white;
+ 
+}
+.bed{
+    background-color: gray;
+}
+.diver{
+    background:url('New folder/h2.jpg') no-repeat center center/cover ;
+    height: 600px;
+    padding: 70px 300px;
+    text-align: center;
+}
+.offer{
+    height:500px ;
+    width: 700px;
+    background-color: rgb(216, 214, 202);
+  padding: 10px;
+  opacity: 0.8;
+}
+.list ul li{
+    /* float: left; */
+    color:black
+
+}
+.list ul{
+    float: left;
+   
+}
+.list{
+    text-align: center;
+}
+.submit a{
+    background-color: tomato;
+   
+}
+.submit{
+    height: 50%;
+}
+/* Describtion */
+.des{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+}
+.des H1{
+    color: white;
+}
+.des li{
+    text-align: center;
+    background-color: black;
+    
+    
+}
+.des li a{
+    /* background-color: black; */
+    color: white;
+}
+/* Chack in */
+.main-top{
+    height: 600px;
+    background:url('New folder/ha.jpg') no-repeat center center/cover ;
+}
+.check-in{
+    text-align: center;
+    padding: 100px;
+    height: 100px;
+}
+.check-in a{
+    background-color: green;
+    color: white;
+    height: 100px;
+}
+.check-out{
+    text-align: center;
+    padding: 100px;
+}
+.check-out a{
+    background-color: red;
+    color: white;
+   
+}
+.check-in a:hover{
+   background-color: red;
+}
+.check-out a:hover{
+    background-color: green;
 }
