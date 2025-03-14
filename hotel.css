@@ -314,6 +314,9 @@ body{
     /* background-color: green; */
     
 }
+.hab{
+    background: url('New folder/pexels-thorsten-technoman-109353-338504.jpg') no-repeat center center/cover;
+}
 h1{
     color: green;
     text-align: center;
