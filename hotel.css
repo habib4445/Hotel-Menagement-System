@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "poppins", sans-serif;
 }
 
 html,body{
@@ -177,15 +178,17 @@ color:#fff ;
 #about-info .info-right{
     float: right;
     width: 50%;
-    min-height: ;
+    /* min-height:500px ; */
 }
 #about-info .info-right img{
     display: block;
     width: 70%;
     margin: auto;
     padding: 100px 0;
+    /* clip-path: circle(50%); */
     border-radius: 50%;
    width: 300px;
+   height: 500px;
    
     
 }
@@ -220,6 +223,7 @@ color:#fff ;
 .testimonial img{
 height: 200px;
 width: 100px;
+opacity: 1;
 
 
 }
@@ -239,7 +243,7 @@ width: 100px;
 .testimonial1 img{
     height: 200px;
     width: 100px;
-   
+    opacity: 1;
     }
 
 /* contract form*/
@@ -314,9 +318,6 @@ body{
     /* background-color: green; */
     
 }
-.hab{
-    background: url('New folder/pexels-thorsten-technoman-109353-338504.jpg') no-repeat center center/cover;
-}
 h1{
     color: green;
     text-align: center;
@@ -361,7 +362,10 @@ p{
 }
 .list ul li{
     /* float: left; */
-    color:black
+    color:black;
+    list-style-type: none;
+    margin: 0px;
+    padding: 7px;
 
 }
 .list ul{
@@ -426,4 +430,33 @@ p{
 }
 .check-out a:hover{
     background-color: green;
+}
+/*Registration*/
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2,#c9d6ff);
+}
+.login{
+    background:#fff;
+    width: 450px;
+    padding: 1.5rem;
+    margin: 10px auto;
+    border-radius: 10px;
+box-shadow: 0 20px 35px rgba(0,0,1,0.5 );
+}
+
+.fas{
+    color: #333;
+}
+.or{
+    color: black;
+}
+.icons i{
+    color: black;
+}
+.links p{
+    color: #1d2630;
+}
+.links #singInButton{
+    color: black;
 }
